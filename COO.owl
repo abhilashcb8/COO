@@ -1,0 +1,370 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#"
+     xml:base="http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#hasAddress -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#hasAddress">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#hasDID -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#hasDID">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#hasDepartment -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#hasDepartment">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#hasGender -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#hasGender">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#hasHID -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#hasHID">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#hasLocation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#hasLocation">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#hasName -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#hasName">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#hasPID -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#hasPID">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#hasSpecialization -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#hasSpecialization">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#Address -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#Address">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#DID -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#DID">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#DOctorID -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#DOctorID">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#DID"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#Department -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#Department">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#Female -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#Female">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#Gender"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#Gender -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#Gender">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#HID -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#HID">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#Location -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#Location">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#Male -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#Male">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#Gender"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#Other -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#Other">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#Gender"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#PID -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#PID">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#PatientID -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#PatientID">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#PID"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#Specialization -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#Specialization">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#firstName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#firstName">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#foaf:name"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#lastName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#lastName">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#foaf:name"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#middleName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#middleName">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#foaf:name"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#reportDate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#reportDate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#foaf:name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#foaf:name">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#time:day -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#time:day">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#reportDate"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#time:month -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#time:month">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#reportDate"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#time:year -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#time:year">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#reportDate"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#Agent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#Agent"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#Clinics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#Clinics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#Facility"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#Doctor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#Doctor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#FAddress -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#FAddress">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#Location"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#Facility -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#Facility"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#Hospital -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#Hospital">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#Facility"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#Labaratory -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#Labaratory">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#Facility"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#Location -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#Location"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#PAddress -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#PAddress">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#Location"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#Patient -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#Patient">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#Person -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#Person">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/6/untitled-ontology-9#Agent"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
